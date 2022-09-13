@@ -1,0 +1,7 @@
+<form [formGroup]="formUsuario">
+
+  <input type="text" placeholder="Nombre de Usuario" formControlName="username">
+  <input type="text" placeholder="Contraseña" formControlName="password">
+
+</form>
+<button (click)="login()">Login</button>
